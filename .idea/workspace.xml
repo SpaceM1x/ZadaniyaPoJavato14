@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aa651838-dd8d-45c9-b475-a890f05745d5" name="Changes" comment="Финал до 14">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Vol10Var11/Insurance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vol10Var11/Insurance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Vol10Var11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vol10Var11/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Vol12Var11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vol12Var11/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Vol14Var11/PoetryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vol14Var11/PoetryClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Vol9Var11/NumberProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vol9Var11/NumberProcessor.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SpaceM1x&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SpaceM1x/ZadaniyaPoJavato14.git&quot;,
+    &quot;accountId&quot;: &quot;dacc1e26-da01-4988-85b7-3e391285287e&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2q9BJPNkwKupfxqt0HtXZtrv702" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PlanetApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PoetryClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PoetryServer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AirplaneTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AirportTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DoubleEncryptionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HyphenationProcessorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InsuranceConnectorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LastWordsExtractorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ListReorganizerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.NumberProcessorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PlanetAppTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SavingsAccountTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringProcessorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SubstringProcessorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.VowelWordsFinderTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;R:/Study and work/Programming/Projects/Javafinished/ZadaniyaPoJavato14&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="R:\Study and work\Programming\Projects\Java Projects\ZadaniyaPoJavato14\src\main\java\Vol9Var11" />
+      <recent name="R:\Study and work\Programming\Projects\Java Projects\ZadaniyaPoJavato14\src\main\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa651838-dd8d-45c9-b475-a890f05745d5" name="Changes" comment="" />
+      <created>1734064837292</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734064837292</updated>
+      <workItem from="1734064838295" duration="1232000" />
+      <workItem from="1734078379893" duration="7233000" />
+      <workItem from="1734101339539" duration="903000" />
+      <workItem from="1734145036143" duration="858000" />
+      <workItem from="1734431628315" duration="116000" />
+      <workItem from="1734437984997" duration="148000" />
+      <workItem from="1734604001777" duration="3640000" />
+      <workItem from="1734670868646" duration="558000" />
+      <workItem from="1734673144146" duration="55000" />
+      <workItem from="1734680564518" duration="492000" />
+      <workItem from="1734681189170" duration="612000" />
+      <workItem from="1734682041269" duration="312000" />
+      <workItem from="1734682418570" duration="380000" />
+    </task>
+    <task id="LOCAL-00001" summary="Исправил ошибки, Добавил Maven.">
+      <option name="closed" value="true" />
+      <created>1734101727242</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734101727242</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Исправил ошибки, Добавил Maven.">
+      <option name="closed" value="true" />
+      <created>1734101817368</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734101817368</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Исправил ошибки, Добавил Maven.">
+      <option name="closed" value="true" />
+      <created>1734101880627</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734101880627</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Исправил ошибки, Добавил Maven.">
+      <option name="closed" value="true" />
+      <created>1734101888845</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734101888845</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Исправил ошибки, Добавил Maven.">
+      <option name="closed" value="true" />
+      <created>1734101999264</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734101999264</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Исправил ошибки, Добавил Maven.">
+      <option name="closed" value="true" />
+      <created>1734102110037</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734102110037</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Исправил ошибки в тестах.">
+      <option name="closed" value="true" />
+      <created>1734145841537</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1734145841537</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Доделал до 14.1">
+      <option name="closed" value="true" />
+      <created>1734671056708</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1734671056708</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Доделал до 14.1">
+      <option name="closed" value="true" />
+      <created>1734680861180</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1734680861180</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Доделал до 14.1">
+      <option name="closed" value="true" />
+      <created>1734680957729</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1734680957729</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Финал до 14">
+      <option name="closed" value="true" />
+      <created>1734681487429</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1734681487429</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Финал до 14">
+      <option name="closed" value="true" />
+      <created>1734681530813</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1734681530813</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Финал до 14">
+      <option name="closed" value="true" />
+      <created>1734682445719</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1734682445719</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="Исправил ошибки, Добавил Maven." />
+    <MESSAGE value="Исправил ошибки в тестах." />
+    <MESSAGE value="Доделал до 14.1" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/Vol13Var11/DatabaseInitializer.java&#10;#&#9;src/main/java/Vol13Var11/PlanetApp.java&#10;#&#9;src/main/java/Vol14Var11/PoetryClient.java" />
+    <MESSAGE value="Финал до 14" />
+    <option name="LAST_COMMIT_MESSAGE" value="Финал до 14" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Vol6Var11Test/SavingsAccountTest.java</url>
+          <line>19</line>
+          <properties class="Vol6Var11Test.SavingsAccountTest" method="testGetDepositType">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -34,9 +34,9 @@ public class Main {
         try {
 
             List<Insurance> insurances = List.of(
-                    new Insurance("Life Insurance", 1000.0, 5),
-                    new Insurance("Health Insurance", 2000.0, 3),
-                    new Insurance("Property Insurance", 1500.0, 7)
+                    new Insurance("Страховние жизни", 1000.0, 5),
+                    new Insurance("Страховка здоровья", 2000.0, 3),
+                    new Insurance("Страховка на имущество", 1500.0, 7)
             );
 
 

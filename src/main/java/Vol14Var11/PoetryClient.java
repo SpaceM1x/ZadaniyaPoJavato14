@@ -16,7 +16,7 @@ public class PoetryClient {
 
             StringBuilder poem = new StringBuilder();
             String line;
-            while ((line = in.readLine()) != null) { // Читаем, пока есть данные
+            while ((line = in.readLine()) != null) {
                 poem.append(line).append("\n");
             }
 

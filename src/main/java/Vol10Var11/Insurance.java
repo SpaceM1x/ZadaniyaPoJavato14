@@ -26,7 +26,7 @@ public class Insurance implements Serializable {
     @Override
     public String toString() {
 
-        return "Insurance{Имя='" + name + "', Цена=" + cost + ", Риск=" + risk + "}";
+        return "Страховка {Имя='" + name + "', Цена=" + cost + ", Риск=" + risk + "}";
 
     }
 }

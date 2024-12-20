@@ -15,7 +15,7 @@ public class NumberProcessor {
             while ((line = reader.readLine()) != null) {
                 String[] parts = line.split(",");
                 if (parts.length != 2) {
-                    throw new InvalidNumberException("Invalid format: each line must contain a number and a locale.");
+                    throw new InvalidNumberException("Неправильное форматирование.");
                 }
 
                 String numberPart = parts[0].trim();
@@ -25,19 +25,19 @@ public class NumberProcessor {
                     Locale locale = Locale.forLanguageTag(localePart);
                     double number = Double.parseDouble(numberPart.replace(',', '.'));
                     if (number < MIN_VALUE || number > MAX_VALUE) {
-                        throw new InvalidNumberException("Number out of range: " + number);
+                        throw new InvalidNumberException("Числа вышли за предел: " + number);
                     }
                     numbers.add(number);
                 } catch (NumberFormatException ex) {
-                    throw new InvalidNumberException("Invalid number format: " + numberPart);
+                    throw new InvalidNumberException("Неправильные числа: " + numberPart);
                 }
             }
         } catch (FileNotFoundException ex) {
-            throw new RuntimeException("File not found: " + filePath, ex);
+            throw new RuntimeException("Файл не найден: " + filePath, ex);
         } catch (IOException ex) {
-            throw new RuntimeException("Error reading file: " + filePath, ex);
+            throw new RuntimeException("Ошибка чтения файла: " + filePath, ex);
         } catch (OutOfMemoryError ex) {
-            throw new RuntimeException("Insufficient memory to process the file", ex);
+            throw new RuntimeException("Недостаточно памяти", ex);
         }
 
         return numbers;

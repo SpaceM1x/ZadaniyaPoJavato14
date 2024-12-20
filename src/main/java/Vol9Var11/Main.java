@@ -12,13 +12,13 @@ public class Main {
             double sum = NumberProcessor.calculateSum(numbers);
             double average = NumberProcessor.calculateAverage(numbers);
 
-            System.out.println("Numbers: " + numbers);
-            System.out.println("Sum: " + sum);
-            System.out.println("Average: " + average);
+            System.out.println("Числа: " + numbers);
+            System.out.println("Сумма: " + sum);
+            System.out.println("Среднее: " + average);
         } catch (InvalidNumberException e) {
-            System.err.println("Error: " + e.getMessage());
+            System.err.println("Ошибка: " + e.getMessage());
         } catch (RuntimeException e) {
-            System.err.println("Runtime Error: " + e.getMessage());
+            System.err.println("Ошибка Runtime: " + e.getMessage());
         }
     }
 }

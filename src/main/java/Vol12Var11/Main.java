@@ -2,7 +2,7 @@ package Vol12Var11;
 
 public class Main {
     public static void main(String[] args) {
-        int numAirplanes = 10; // Количество самолетов
+        int numAirplanes = 10;
         Airport airport = new Airport(numAirplanes);
 
         for (int i = 0; i < numAirplanes; i++) {
