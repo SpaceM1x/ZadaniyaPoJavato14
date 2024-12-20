@@ -32,7 +32,7 @@ public class SavingsAccountTest {
         SavingsAccount account = new SavingsAccount("Продолжительный", "Отзывной", 1000.0, 5.0, Currency.getInstance("USD"));
 
         account.closeAndReopen("EUR");
-        assertEquals("EUR", account.getCurrency().getCurrencyCode()); // Теперь getCurrency() доступен
+        assertEquals("EUR", account.getCurrency().getCurrencyCode());
     }
 
     @Test
