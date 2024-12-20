@@ -6,9 +6,9 @@ public class Main {
         Airport airport = new Airport(numAirplanes);
 
         for (int i = 0; i < numAirplanes; i++) {
-            Airplane airplane = new Airplane("Airplane-" + (i + 1),
+            Airplane airplane = new Airplane("Самолет-" + (i + 1),
                     (i % 2 == 0),
-                    "Destination-" + (i % 4 + 1),
+                    "Пункт назначения-" + (i % 4 + 1),
                     (i % 3 + 1) * 1000);
             airport.processAirplane(airplane);
         }
