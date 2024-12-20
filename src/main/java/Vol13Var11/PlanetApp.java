@@ -6,9 +6,7 @@ public class PlanetApp {
         try (Connection connection = DriverManager.getConnection("jdbc:h2:~/PlanetDB", "sa", "")) {
             DatabaseInitializer.initializeDatabase(connection);
 
-
             DatabaseInitializer.insertSampleData(connection);
-
 
             System.out.println("Планеты с жизнью в указанной галактике:");
             Queries.getPlanetsWithLife(connection, "Млечный Путь").forEach(System.out::println);

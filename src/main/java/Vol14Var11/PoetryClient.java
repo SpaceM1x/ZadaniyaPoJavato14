@@ -12,18 +12,18 @@ public class PoetryClient {
              BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
              PrintWriter out = new PrintWriter(socket.getOutputStream(), true)) {
 
-            System.out.println("Connected to server: " + SERVER_HOST);
+            System.out.println("Подключение к серверу: " + SERVER_HOST);
 
             StringBuilder poem = new StringBuilder();
             String line;
-            while ((line = in.readLine()) != null) {
+            while ((line = in.readLine()) != null) { // Читаем, пока есть данные
                 poem.append(line).append("\n");
             }
 
             System.out.println("Полученный стих:\n" + poem);
 
         } catch (IOException e) {
-            System.err.println("Client error: " + e.getMessage());
+            System.err.println("Ошибка с клиентом: " + e.getMessage());
         }
     }
 }

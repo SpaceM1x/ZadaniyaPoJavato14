@@ -5,7 +5,6 @@ import java.sql.*;
 public class DatabaseInitializer {
     public static void initializeDatabase(Connection connection) throws SQLException {
         try (Statement statement = connection.createStatement()) {
-
             statement.execute("CREATE TABLE IF NOT EXISTS Galaxy (id IDENTITY PRIMARY KEY, name VARCHAR(255));");
             statement.execute("CREATE TABLE IF NOT EXISTS Planet (id IDENTITY PRIMARY KEY, name VARCHAR(255), radius DOUBLE, coreTemperature DOUBLE, hasAtmosphere BOOLEAN, hasLife BOOLEAN, galaxy_id BIGINT, FOREIGN KEY (galaxy_id) REFERENCES Galaxy(id));");
             statement.execute("CREATE TABLE IF NOT EXISTS Moon (id IDENTITY PRIMARY KEY, name VARCHAR(255), radius DOUBLE, distanceFromPlanet DOUBLE, planet_id BIGINT, FOREIGN KEY (planet_id) REFERENCES Planet(id));");
@@ -22,7 +21,6 @@ public class DatabaseInitializer {
             ResultSet galaxyKeys = insertGalaxy.getGeneratedKeys();
             galaxyKeys.next();
             long galaxyId = galaxyKeys.getLong(1);
-
 
             insertPlanet.setString(1, "Земля");
             insertPlanet.setDouble(2, 6371);
