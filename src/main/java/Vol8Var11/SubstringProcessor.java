@@ -9,6 +9,6 @@ public class SubstringProcessor {
             return sentence.substring(0, startIndex) + sentence.substring(endIndex + 1);
         }
 
-        return sentence; // Если подходящая подстрока не найдена
+        return sentence;
     }
 }

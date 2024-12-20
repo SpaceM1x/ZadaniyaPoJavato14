@@ -3,11 +3,11 @@ package Vol6Var11;
 import java.util.Currency;
 
 public class SavingsAccount implements BankDeposit {
-    private String duration; // продолжительность (бессрочный/долгосрочный/краткосрочный)
-    private String depositType; // отзывной или безотзывной
-    private double principalAmount; // первоначальная сумма вклада
-    private double interestRate; // процентная ставка
-    private Currency currency; // валюта вклада
+    private String duration;
+    private String depositType;
+    private double principalAmount;
+    private double interestRate;
+    private Currency currency;
 
     public SavingsAccount(String duration, String depositType, double principalAmount, double interestRate, Currency currency) {
         this.duration = duration;

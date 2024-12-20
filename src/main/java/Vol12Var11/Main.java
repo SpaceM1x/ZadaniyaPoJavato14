@@ -7,9 +7,9 @@ public class Main {
 
         for (int i = 0; i < numAirplanes; i++) {
             Airplane airplane = new Airplane("Airplane-" + (i + 1),
-                    (i % 2 == 0), // Чередование способа посадки
+                    (i % 2 == 0),
                     "Destination-" + (i % 4 + 1),
-                    (i % 3 + 1) * 1000); // Зоны дальности
+                    (i % 3 + 1) * 1000);
             airport.processAirplane(airplane);
         }
 

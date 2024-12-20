@@ -8,7 +8,7 @@ public class ListReorganizer {
         for (int j = 0; j < list.size(); j++) {
             if (list.get(j) >= 0) {
                 if (i != j) {
-                    // Меняем местами положительное и текущее число
+
                     int temp = list.get(i);
                     list.set(i, list.get(j));
                     list.set(j, temp);

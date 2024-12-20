@@ -8,11 +8,11 @@ public class StringProcessor {
     public static String processString(String input, int n, int m, int l) {
 
         BiFunction<String, Integer, String> process = (str, limit) -> Arrays.stream(str.split(" "))
-                .limit(limit) // Ограничиваю количество слов
-                .map(word -> word + ",") // Добавляю запятые
-                .collect(Collectors.joining()); // Соединяюрезультат
+                .limit(limit)
+                .map(word -> word + ",")
+                .collect(Collectors.joining());
 
-        String repeatedString = process.apply(input, m).repeat(n); // Делаем N копий
-        return repeatedString.length() > l ? repeatedString.substring(0, l) : repeatedString; // Ограничиваем длину
+        String repeatedString = process.apply(input, m).repeat(n);
+        return repeatedString.length() > l ? repeatedString.substring(0, l) : repeatedString;
     }
 }

@@ -6,11 +6,11 @@ public class Main {
     public static void main(String[] args) {
 
         SavingsAccount account = new SavingsAccount(
-                "Продолжительный",  // Продолжительность вклада
-                "Отзывной",  // Тип вклада
-                1000.0,       // Сумма вклада
-                5.0,          // Процентная ставка
-                Currency.getInstance("USD")  // Валюта вклада
+                "Продолжительный",
+                "Отзывной",
+                1000.0,
+                5.0,
+                Currency.getInstance("USD")
         );
 
         account.displayInfo();
@@ -21,11 +21,11 @@ public class Main {
 
         System.out.println("\nТип депозита: " + account.getDepositType());
 
-        // Расчет и вывод начисленных процентов
+
         double interest = account.calculateInterest();
         System.out.println("\nРассчитанный процент: " + interest);
 
-        // Закрытие текущего вклада и открытие нового в другой валюте
+
         account.closeAndReopen("EUR");
         account.displayInfo();
     }

@@ -6,8 +6,8 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
 public class Airport {
-    private static final int NUM_TERMINALS = 3;  // Количество терминалов
-    private static final int NUM_RUNWAYS = 2;    // Количество трапов
+    private static final int NUM_TERMINALS = 3;
+    private static final int NUM_RUNWAYS = 2;
 
     private final Semaphore terminalAccess;
     private final Semaphore runwayAccess;
@@ -24,15 +24,15 @@ public class Airport {
             try {
                 System.out.println(airplane + " готовится к посадке.");
                 if (airplane.isUsingTerminal()) {
-                    terminalAccess.acquire(); // Запрос терминала
+                    terminalAccess.acquire();
                     System.out.println(airplane + " использует терминал.");
                     airplane.boardPassengers();
-                    terminalAccess.release(); // Освобождение терминала
+                    terminalAccess.release();
                 } else {
-                    runwayAccess.acquire(); // Запрос трапа
+                    runwayAccess.acquire();
                     System.out.println(airplane + " использует трап.");
                     airplane.boardPassengers();
-                    runwayAccess.release(); // Освобождение трапа
+                    runwayAccess.release();
                 }
                 airplane.flyToDestination();
             } catch (InterruptedException e) {

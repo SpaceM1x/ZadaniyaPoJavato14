@@ -18,7 +18,7 @@ public class Airplane {
     }
 
     public void boardPassengers() throws InterruptedException {
-        System.out.println(name + " высаживает/сажает пассажиров.");
+        System.out.println(name + " высаживает/набирает пассажиров.");
         Thread.sleep(1000);
     }
 

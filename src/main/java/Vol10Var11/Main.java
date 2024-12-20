@@ -59,8 +59,8 @@ public class Main {
     private static void runTask3() {
         String inputFile = "src/main/java/Vol10Var11/inputTask3.txt";
         String outputDir = "outputTask3";
-        int n = 5; // Количество строк
-        int m = 3; // Количество слов
+        int n = 5;
+        int m = 3;
 
         try {
             LastWordsExtractor.extractLastWords(inputFile, outputDir, n, m);

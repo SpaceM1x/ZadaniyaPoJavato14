@@ -9,7 +9,6 @@ public class Main {
         try {
             List<Double> numbers = NumberProcessor.readNumbersFromFile(filePath);
 
-            // Расчет суммы и среднего
             double sum = NumberProcessor.calculateSum(numbers);
             double average = NumberProcessor.calculateAverage(numbers);
 

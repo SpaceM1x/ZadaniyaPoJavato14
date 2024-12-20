@@ -25,7 +25,7 @@ public class Main {
     private static void runTask2() {
 
         String original = "HELLO WORLD";
-        String encrypted = "KHOOR ZRUOG"; // Пример зашифрованной строки
+        String encrypted = "KHOOR ZRUOG";
 
         System.out.println("Исходная строка: " + original);
         System.out.println("Зашифрованная строка: " + encrypted);

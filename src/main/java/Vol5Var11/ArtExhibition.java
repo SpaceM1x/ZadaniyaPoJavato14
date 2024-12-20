@@ -14,7 +14,6 @@ public class ArtExhibition {
         exhibits.add(new Exhibit(paintingName, author, exhibitionDate));
     }
 
-    // Метод для отображения всей информации о выставках
     public void showExhibits() {
         if (exhibits.isEmpty()) {
             System.out.println("Нет информации о выставках.");
@@ -27,9 +26,9 @@ public class ArtExhibition {
 
     // Внутренний класс Exhibit
     private class Exhibit {
-        private String paintingName; // Название картины
-        private String author;       // Автор картины
-        private String exhibitionDate; // Дата проведения выставки
+        private String paintingName;
+        private String author;
+        private String exhibitionDate;
 
         public Exhibit(String paintingName, String author, String exhibitionDate) {
             this.paintingName = paintingName;
@@ -37,7 +36,6 @@ public class ArtExhibition {
             this.exhibitionDate = exhibitionDate;
         }
 
-        // Переопределение метода toString для красивого вывода
         @Override
         public String toString() {
             return "Картина: \"" + paintingName + "\", Автор: " + author + ", Дата выставки: " + exhibitionDate;
